@@ -1,0 +1,94 @@
+.nav-ul{
+  background-color: skyblue;
+  padding: 5px;
+  margin: 0;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  
+}
+.nav-ul li a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.logo_img{
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+
+.login{
+  align-items: center;
+align-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.register ,.product{
+align-items: center;
+align-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.inputBox{
+  display: block;
+  margin: 15px;
+  padding: 7px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid skyblue;
+}
+
+.signup_btn{
+  margin: 16px;
+  color: white;
+  background-color: skyblue;
+  font-size: bolder;
+  width: 120px;
+  padding: 10px;
+  border: 1px solid solid skyblue;
+  cursor: pointer;
+}
+
+.invalid{
+  color: red;
+  display: block;
+  margin-top: -15px;
+}
+
+
+.product-list{
+text-align: center;
+}
+
+
+.product-list ul{
+  margin: 0;
+}
+.product-list ul li{
+  display: inline-block;
+  padding: 5px;
+  width: 150px;
+  border: 1px solid skyblue;
+}
+
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+}
+
+.footer{
+  background-color: skyblue;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
